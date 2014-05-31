@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F15FE3BD-48AA-45E9-86B7-9AEF1A8387BD}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="KJYUPackage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demo\Project1.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="KJYUPackage">
+        <MSBuild Projects="KJYUPackage.dproj"/>
+    </Target>
+    <Target Name="KJYUPackage:Clean">
+        <MSBuild Projects="KJYUPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="KJYUPackage:Make">
+        <MSBuild Projects="KJYUPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="Demo\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="Demo\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="Demo\Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="KJYUPackage;Project1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="KJYUPackage:Clean;Project1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="KJYUPackage:Make;Project1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

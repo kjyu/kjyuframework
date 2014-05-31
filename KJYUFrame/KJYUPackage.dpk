@@ -1,0 +1,45 @@
+package KJYUPackage;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  fmx,
+  xmlrtl;
+
+contains
+  KJYU.UI.Container in 'Source\UI\KJYU.UI.Container.pas',
+  KJYU.UI.Layout in 'Source\UI\KJYU.UI.Layout.pas',
+  KJYU.UI.Classes in 'Source\UI\KJYU.UI.Classes.pas',
+  KJYU.UI.Types in 'Source\UI\KJYU.UI.Types.pas',
+  KJYU.UI.Consts in 'Source\UI\KJYU.UI.Consts.pas',
+  KJYU.UI.Exceptions in 'Source\UI\KJYU.UI.Exceptions.pas',
+  KJYU.UI.Inf in 'Source\UI\KJYU.UI.Inf.pas',
+  KJYU.UI.ClassLib in 'Source\UI\KJYU.UI.ClassLib.pas';
+
+end.

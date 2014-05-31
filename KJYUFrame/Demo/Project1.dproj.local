@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/05/11 16:52:12.000.200,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/05/19 23:40:20.000.318,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/05/19 23:41:55.000.518,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.fmx=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.fmx</Transaction>
+    <Transaction>2014/05/19 23:41:55.000.518,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.pas</Transaction>
+    <Transaction>2014/05/19 23:42:01.000.830,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Project1.dproj</Transaction>
+    <Transaction>2014/05/20 23:47:46.000.351,=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit2.pas</Transaction>
+    <Transaction>2014/05/20 23:52:55.000.388,G:\程序\delphi\mydoc\项目\KJYUFrame\Source\MemoryLogger\OverbyteInMemoryChunk.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit2.pas</Transaction>
+    <Transaction>2014/05/21 00:00:33.000.722,=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit2.pas</Transaction>
+    <Transaction>2014/05/21 00:05:46.000.556,G:\程序\delphi\mydoc\项目\KJYUFrame\Source\MemoryLogger\OverbyteInMemoryLogger.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit2.pas</Transaction>
+    <Transaction>2014/05/22 22:06:58.000.915,G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.pas=</Transaction>
+    <Transaction>2014/05/22 22:07:22.000.724,=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.pas</Transaction>
+    <Transaction>2014/05/30 22:54:10.258,=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Untitled1.xml</Transaction>
+    <Transaction>2014/05/30 23:00:09.533,G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Win32\Debug\test1.xml=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Untitled1.xml</Transaction>
+  </Transactions>
+</BorlandProject>

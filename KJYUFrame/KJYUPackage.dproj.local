@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/05/11 16:50:12.000.907,=rtl.dcp</Transaction>
+    <Transaction>2014/05/11 16:50:58.000.567,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\KJYUPackage.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2014/05/11 16:51:14.000.960,G:\程序\delphi\mydoc\项目\KJYUFrame\KJYUPackage.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\KJYUPackage.dproj</Transaction>
+    <Transaction>2014/05/11 16:51:34.000.107,=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas</Transaction>
+    <Transaction>2014/05/11 16:51:56.000.717,=fmx.dcp</Transaction>
+    <Transaction>2014/05/11 17:02:29.000.691,=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas</Transaction>
+    <Transaction>2014/05/11 17:03:02.000.165,G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Layout.pas</Transaction>
+    <Transaction>2014/05/11 17:04:40.000.327,=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas</Transaction>
+    <Transaction>2014/05/11 17:05:06.000.991,G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Classes.pas</Transaction>
+    <Transaction>2014/05/11 18:04:55.000.629,=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas</Transaction>
+    <Transaction>2014/05/11 18:05:18.000.952,G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Types.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas</Transaction>
+    <Transaction>2014/05/14 21:27:18.000.523,=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas</Transaction>
+    <Transaction>2014/05/14 21:27:39.000.750,G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Consts.pas</Transaction>
+    <Transaction>2014/05/14 21:32:03.000.045,=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas</Transaction>
+    <Transaction>2014/05/14 21:33:14.000.498,G:\程序\delphi\mydoc\项目\KJYUFrame\Unit1.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Exceptions.pas</Transaction>
+    <Transaction>2014/05/24 15:06:52.000.584,=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit2.pas</Transaction>
+    <Transaction>2014/05/24 15:08:42.000.454,G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.IFrame.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit2.pas</Transaction>
+    <Transaction>2014/05/24 15:09:28.000.105,G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.ITypes.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.IFrame.pas</Transaction>
+    <Transaction>2014/05/24 15:14:04.000.170,G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Inf.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.ITypes.pas</Transaction>
+    <Transaction>2014/05/27 23:07:14.000.028,=G:\程序\delphi\mydoc\项目\KJYUFrame\Unit2.pas</Transaction>
+    <Transaction>2014/05/27 23:07:46.000.060,G:\程序\delphi\mydoc\项目\KJYUFrame\Unit2.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.ClassLib.pas</Transaction>
+    <Transaction>2014/05/31 00:16:46.954,=xmlrtl.dcp</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>
