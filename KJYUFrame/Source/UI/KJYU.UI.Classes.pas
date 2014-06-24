@@ -50,6 +50,7 @@ type
     FEnabled: Boolean;
     FCanFocus: Boolean;
     FAcceptGObject: Boolean;
+    FAutoCapture: Boolean;
     procedure SetAlign(const Value: TKJYUAlign);
     procedure SetHeight(const Value: Single);
     procedure SetLeft(const Value: Single);
@@ -100,8 +101,11 @@ type
     function _AddRef: Integer; stdcall;
     function _Release: Integer; stdcall;
     //
+    function GetObject: TObject;
     function ObjectAtPoint(P: TPointF): IKJYUGraphicsObject; virtual;
     {Event}
+    procedure Capture;
+    procedure ReleaseCapture;
     procedure Click;
     procedure DblClick;
     procedure MouseDown(Button: TMouseButton; Shift: TShiftState; X, Y: Single); virtual;
@@ -145,25 +149,27 @@ type
     property OnClick: TNotifyEvent read FOnClick write SetOnClick;
     property OnDblClick: TNotifyEvent read FOnDblClick write FOnDblClick;
     property OnCanFocus: TCanFocusEvent read FOnCanFocus write FOnCanFocus;
+    //
+    property GObjects: TKJYUGObjectList read FGObjects;
+    property Canvas: TCanvas read GetCanvas;
+    property LocalRect: TRectF read GetLocalRect;    //position-0,0
+    property AbsRect: TRectF read GetAbsRect;        //相对于Root容器的坐标
+    property ScreenRect: TRectF read GetScreenRect;  //相对于Root容器窗体
   published
     property Left: Single read FLeft write SetLeft;
     property Top: Single read FTop write SetTop;
     property Width: Single read FWidth write SetWidth;
     property Height: Single read FHeight write SetHeight;
     property Align: TKJYUAlign read FAlign write SetAlign;
-    property GObjects: TKJYUGObjectList read FGObjects;
     property AcceptGObject: Boolean read FAcceptGObject write SetAcceptGObject;
     //
     property OnDraw: TOnPaintEvent read FOnPaint write FOnPaint;
-    property Canvas: TCanvas read GetCanvas;
-    property LocalRect: TRectF read GetLocalRect;    //position-0,0
-    property AbsRect: TRectF read GetAbsRect;        //相对于Root容器的坐标
-    property ScreenRect: TRectF read GetScreenRect;  //相对于Root容器窗体
     //
     property Visible: Boolean read GetVisible write SetVisible;
     property Caption: string read FCaption write SetCaption;
     property Enabled: Boolean read FEnabled write SetEnabled;
     property CanFocus: Boolean read FCanFocus write SetCanFocus;
+    property AutoCapture: Boolean read FAutoCapture write FAutoCapture default False;
   end;
   procedure LayoutObjects(AObj: TKJYUGraphicsObject);
 implementation
@@ -299,11 +305,14 @@ end;
 procedure TKJYUGraphicsObject.PaintBackGrand;
 begin
   Canvas.BeginScene();
-  Canvas.Fill.Kind := TBrushKind.Solid;
-  Canvas.Fill.Color := random(2147483647);// TAlphaColorRec.Red;
-  Canvas.FillRect(AbsRect,0,0,AllCorners,100);
+  if not (stDesigning in ObjState) then
+  begin
+    Canvas.Fill.Kind := TBrushKind.Solid;
+    Canvas.Fill.Color := random(2147483647);// TAlphaColorRec.Red;
+    Canvas.FillRect(AbsRect,0,0,AllCorners,100);
+    Canvas.DrawLine(AbsRect.TopLeft, AbsRect.BottomRight, 100);
+  end;
   Canvas.DrawRect(AbsRect, 0, 0, AllCorners, 100);
-  Canvas.DrawLine(AbsRect.TopLeft, AbsRect.BottomRight, 100);
   Canvas.EndScene;
 end;
 
@@ -374,7 +383,10 @@ function TKJYUGraphicsObject.GetCanvas: TCanvas;
 begin
   //取得画布
   if Assigned(FScene) then
-    Result := FScene.GetCanvas
+  begin
+    Result := FScene.GetCanvas;
+//    FScene.Canvas.SetMatrix();
+  end
   else
     Result := nil;
 end;
@@ -395,6 +407,11 @@ function TKJYUGraphicsObject.GetLocalRect: TRectF;
 begin
   //取得客户区结构体
   Result := RectF(0, 0, FWidth, FHeight);
+end;
+
+function TKJYUGraphicsObject.GetObject: TObject;
+begin
+  Result := Self;
 end;
 
 function TKJYUGraphicsObject.GetScreenRect: TRectF;
@@ -458,6 +475,8 @@ begin
 
   if Assigned(FOnMouseDown) then
     FOnMouseDown(Self, Button, Shift, X, Y);
+  if FAutoCapture then
+    Capture;
   //
   if (ssDouble in Shift) then
   begin
@@ -480,9 +499,11 @@ end;
 procedure TKJYUGraphicsObject.MouseUp(Button: TMouseButton; Shift: TShiftState;
   X, Y: Single);
 begin
+  ReleaseCapture;
   InvalidateRect(ScreenRect);
   if Assigned(FOnMouseUp) then
     FOnMouseUp(Self, Button, Shift, X, Y);
+
 end;
 
 procedure TKJYUGraphicsObject.MouseWheel(Shift: TShiftState;
@@ -535,6 +556,12 @@ begin
     Exit;
   //判断是否需要重新布局
   DoRealign;
+end;
+
+procedure TKJYUGraphicsObject.ReleaseCapture;
+begin
+ if (Root <> nil) and (Root.Captured <> nil) and (Root.Captured.GetObject = Self) then
+    Root.SetCaptured(nil);
 end;
 
 procedure TKJYUGraphicsObject.Resize;
@@ -591,6 +618,12 @@ begin
   inc(FUpdating);
   //子元件也需要BeginUpDate
 
+end;
+
+procedure TKJYUGraphicsObject.Capture;
+begin
+  if Assigned(Root) then
+    Root.Captured := Self;
 end;
 
 procedure TKJYUGraphicsObject.Click;

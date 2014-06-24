@@ -11,7 +11,7 @@ type
   TKJYUAlign = (alNone, alLeft, alRight, alTop, alBottom, alClient, alFitLeft,
     alFitRight, alFitTop, alFitBottom);
   TKJYUOperation = (Insert, Remove);
-  TKJYUObjState = set of (stDesigning);
+  TKJYUObjState = set of (stDesigning, stLoading);
   TKJYUObject = class;
   TKJYUObjectClass = class of TKJYUObject;
   TKJYUObjectList = TList<TKJYUObject>;
@@ -51,10 +51,10 @@ type
     property ObjState: TKJYUObjState read FObjState write FObjState;
     { children }
     property ChildrenCount: Integer read GetChildrenCount;
-  published
     property Handle: THandle read FHandle;
     property Parent: TKJYUObject read FParent write SetParent;
     property Root: IKJYURoot read FRoot write SetRoot;
+  published
     property Name: string read FName write SetName;
   end;
 

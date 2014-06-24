@@ -6,6 +6,7 @@ uses
 type
   IKJYUGraphicsObject = interface
   ['{5C62910B-0C97-4BD2-8E47-2B8F2AA30C7B}']
+    function GetObject: TObject;
     function GetVisible: Boolean;
     procedure SetVisible(const Value: Boolean);
     //
@@ -28,8 +29,12 @@ type
     property RoottTop: Single read GetRootTop;
     function GetFocused: IKJYUGraphicsObject;
     procedure SetFocused(const Value: IKJYUGraphicsObject);
+    function GetCaptured: IKJYUGraphicsObject;
+    procedure SetCaptured(const Value: IKJYUGraphicsObject);
     property Focused: IKJYUGraphicsObject read GetFocused write SetFocused;
+    property Captured: IKJYUGraphicsObject read GetCaptured write SetCaptured;
     function NewFocusedControl(const Value: IKJYUGraphicsObject): IKJYUGraphicsObject;
+
   end;
 
   

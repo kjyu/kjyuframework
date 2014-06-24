@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/06/11 22:53:09.000.071,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/06/11 22:55:04.000.886,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit2.fmx=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.fmx</Transaction>
+    <Transaction>2014/06/11 22:55:04.000.886,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit2.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.pas</Transaction>
+    <Transaction>2014/06/11 22:55:26.000.466,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project2.dproj=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Designer.dproj</Transaction>
+    <Transaction>2014/06/15 02:24:01.000.413,=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Win32\Debug\test1.xml</Transaction>
+    <Transaction>2014/06/15 21:15:26.000.849,=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Unit2.pas</Transaction>
+    <Transaction>2014/06/15 21:16:53.000.515,G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Unit2.pas=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\ProjectUnit.pas</Transaction>
+    <Transaction>2014/06/22 22:20:25.183,=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Untitled1.xml</Transaction>
+    <Transaction>2014/06/22 22:32:00.856,G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Win32\Debug\Project1.xml=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Untitled1.xml</Transaction>
+  </Transactions>
+</BorlandProject>

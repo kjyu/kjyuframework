@@ -1,79 +1,105 @@
 ﻿[Closed Files]
-File_0=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\SOURCE\XML\Xml.XMLDoc.pas',0,1,2563,1,2574,0,0,,
-File_1=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.Generics.Collections.pas',0,1,668,1,680,0,0,,
-File_2=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.Classes.pas',0,1,3864,1,3876,0,0,,
-File_3=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\SOURCE\RTL\SYS\System.Variants.pas',0,1,3217,1,3229,0,0,,
-File_4=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Objects3D.pas',0,1,64,27,68,0,0,,
-File_5=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls3D.pas',0,1,52,28,67,0,0,,
-File_6=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Objects.pas',0,1,9,64,13,0,0,,
-File_7=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Types.pas',0,1,362,47,374,0,0,{{5128,0},{5261,11},{'implementation of purgatory'}}{{7221,0},{7743,11},{' implementation of Caret'}}{{7300,0},{7432,11},{'global methods for Flasher'}},
-File_8=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\SOURCE\RTL\SYS\System.pas',0,1,16055,1,16069,0,0,,
-File_9=TSourceModule,'G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.fmx',0,1,1,1,1,0,0,,
-File_10=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.Messaging.pas',0,1,1,37,11,0,0,,
-File_11=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\rtl\win\Winapi.Messages.pas',0,1,535,1,18,0,0,,
-File_12=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\SOURCE\VCL\Vcl.ExtCtrls.pas',0,1,848,69,864,0,0,,
-File_13=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Platform.pas',0,1,211,68,211,0,0,,
+File_0=TSourceModule,'G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Win32\Debug\test1.xml',0,1,1,22,2,0,0,,
+File_1=TSourceModule,'G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.fmx',0,1,1,1,1,0,0,,
+File_2=TSourceModule,'G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.pas',0,1,1,1,1,0,0,,
+File_3=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Platform.Win.pas',0,1,1451,51,1474,0,0,,
+File_4=TSourceModule,'G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.FuncLib.pas',0,1,7,19,11,0,0,,
+File_5=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.TreeView.pas',0,1,2212,3,2228,0,0,,
+File_6=TSourceModule,'G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.pas',0,1,1,26,18,0,0,,
+File_7=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.ListBox.pas',0,1,194,30,204,0,0,,
+File_8=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Layouts.pas',0,1,1325,53,1345,0,0,{{1113,6}
+File_9=TSourceModule,'G:\程序\delphi\mydoc\控件\L_M_D_2014.3_Complete_FS\LMD\source\LMDIdeProjMgr.pas',0,1,29,45,44,0,0,,
+File_10=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\SOURCE\RTL\SYS\System.Types.pas',0,1,1806,22,1810,0,0,,
+File_11=TSourceModule,'c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.Classes.pas',0,1,129,1,145,0,0,,
+File_12=TSourceModule,'G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Win32\Debug\test1.xml',0,1,1,77,2,0,0,,
 
 [Modules]
-Module0=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.pas
-Module1=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas
-Module2=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Win32\Debug\test1.xml
-Module3=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas
-Module4=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.ClassLib.pas
-Module5=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Classes.pas
-Module6=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Project1.dproj
-Module7=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Consts.pas
-Module8=C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Platform.Win.pas
-Module9=C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Forms.pas
-Module10=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Types.pas
-Module11=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Inf.pas
-Module12=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Graphics.pas
-Module13=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.StdCtrls.pas
-Count=14
+Module0=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.pas
+Module1=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\ProjectUnit.pas
+Module2=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Win32\Debug\Project1.xml
+Module3=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Classes.pas
+Module4=c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.Rtti.pas
+Module5=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas
+Module6=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Forms.pas
+Module7=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas
+Module8=default.htm
+Module9=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Project1.dproj
+Module10=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Types.pas
+Module11=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.StdCtrls.pas
+Module12=c:\program files (x86)\embarcadero\studio\14.0\SOURCE\RTL\SYS\System.Math.Vectors.pas
+Module13=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Graphics.pas
+Module14=c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.TypInfo.pas
+Module15=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Types.pas
+Module16=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Inf.pas
+Module17=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Consts.pas
+Count=18
 EditWindowCount=1
 
-[G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.pas]
+[G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.pas]
 ModuleType=TSourceModule
 FormState=1
-FormOnTop=1
+FormOnTop=0
 
-[G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas]
+[G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\ProjectUnit.pas]
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
 
-[G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Win32\Debug\test1.xml]
+[G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Win32\Debug\Project1.xml]
 ModuleType=TSourceModule
-
-[c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas]
-ModuleType=TSourceModule
-FormState=0
-FormOnTop=0
-
-[G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.ClassLib.pas]
-ModuleType=TSourceModule
-FormState=0
-FormOnTop=0
 
 [G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Classes.pas]
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
 
+[c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.Rtti.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Forms.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[default.htm]
+ModuleType=TURLModule
+
 [G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Project1.dproj]
 ModuleType=TBaseProject
 
-[G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Consts.pas]
+[c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Types.pas]
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
 
-[C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Platform.Win.pas]
+[c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.StdCtrls.pas]
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
 
-[C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Forms.pas]
+[c:\program files (x86)\embarcadero\studio\14.0\SOURCE\RTL\SYS\System.Math.Vectors.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Graphics.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.TypInfo.pas]
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
@@ -88,19 +114,14 @@ ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
 
-[c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Graphics.pas]
-ModuleType=TSourceModule
-FormState=0
-FormOnTop=0
-
-[c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.StdCtrls.pas]
+[G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Consts.pas]
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=14
-CurrentEditView=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.pas
+ViewCount=18
+CurrentEditView=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.pas
 View0=0
 View1=1
 View2=2
@@ -115,6 +136,10 @@ View10=10
 View11=11
 View12=12
 View13=13
+View14=14
+View15=15
+View16=16
+View17=17
 PercentageSizes=1
 Create=1
 Visible=1
@@ -131,42 +156,46 @@ ClientHeight=9286
 DockedToMainForm=1
 BorlandEditorCodeExplorer=BorlandEditorCodeExplorer@EditWindow0
 TopPanelSize=0
-LeftPanelSize=1896
+LeftPanelSize=2020
 LeftPanelClients=PropertyInspector,DockSite3
-LeftPanelData=00000800010100000000AC120000000000000168070000000000000100000000580E000009000000446F636B53697465330100000000372100001100000050726F7065727479496E73706563746F72FFFFFFFF
+LeftPanelData=00000800010100000000AC1200000000000001E40700000000000001000000009510000009000000446F636B53697465330100000000372100001100000050726F7065727479496E73706563746F72FFFFFFFF
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=DockSite1
 BottomPanelData=0000080001000100000009000000446F636B53697465317A45000000000000000D06000000000000FFFFFFFF
 BottomMiddlePanelSize=0
 BottomMiddlePanelClients=DockSite0,GraphDrawingModel
-BottomMiddelPanelData=0000080001020200000009000000446F636B536974653010000000477261706844726177696E6756696577D43600000000000002F305000000000000FFFFFFFF
+BottomMiddelPanelData=0000080001020200000009000000446F636B536974653010000000477261706844726177696E6756696577F735000000000000029805000000000000FFFFFFFF
 TabDockBottomClients=MessageView=0
 TabDockRightClients=DockSite2=0,DockSite4=1
 
 [View0]
+CustomEditViewType=TWelcomePageView
+WelcomePageURL=bds:/default.htm
+
+[View1]
 CustomEditViewType=TEditView
 Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Types.pas
-CursorX=38
-CursorY=24
-TopLine=28
+CursorX=18
+CursorY=57
+TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Types.pas
 
-[View1]
+[View2]
 CustomEditViewType=TEditView
 Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Inf.pas
-CursorX=15
-CursorY=18
-TopLine=13
+CursorX=59
+CursorY=3
+TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Inf.pas
 
-[View2]
+[View3]
 CustomEditViewType=TEditView
 Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Consts.pas
 CursorX=35
@@ -177,89 +206,78 @@ Elisions=
 Bookmarks=
 EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Consts.pas
 
-[View3]
+[View4]
 CustomEditViewType=TEditView
 Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Classes.pas
-CursorX=39
-CursorY=232
-TopLine=231
+CursorX=23
+CursorY=502
+TopLine=493
 LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Classes.pas
 
-[View4]
+[View5]
+CustomEditViewType=TEditView
+Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas
+CursorX=41
+CursorY=263
+TopLine=311
+LeftCol=1
+Elisions=
+Bookmarks={1,710,1}{2,453,2}
+EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas
+
+[View6]
 CustomEditViewType=TEditView
 Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Project1.dpr
-CursorX=30
-CursorY=3
+CursorX=58
+CursorY=2
 TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Project1.dpr
 
-[View5]
-CustomEditViewType=TEditView
-Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas
-CursorX=59
-CursorY=67
-TopLine=45
-LeftCol=1
-Elisions=
-Bookmarks=
-EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Container.pas
-
-[View6]
-CustomEditViewType=TEditView
-Module=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas
-CursorX=24
-CursorY=4753
-TopLine=4750
-LeftCol=1
-Elisions={{6016,0},{6269,11},{'TTextSettingsInfo'}}{{6018,0},{6044,11},{'Helper classes'}}{{6839,0},{6989,11},{'TPopupList'}}
-Bookmarks=
-EditViewName=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas
-
 [View7]
 CustomEditViewType=TEditView
-Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Win32\Debug\test1.xml
-CursorX=60
-CursorY=7
-TopLine=1
+Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.pas
+CursorX=82
+CursorY=127
+TopLine=119
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Win32\Debug\test1.xml
+EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\DesignMain.pas
 
 [View8]
 CustomEditViewType=TEditView
-Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.ClassLib.pas
-CursorX=53
-CursorY=45
-TopLine=43
+Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\ProjectUnit.pas
+CursorX=35
+CursorY=126
+TopLine=120
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.ClassLib.pas
+EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\ProjectUnit.pas
 
 [View9]
 CustomEditViewType=TEditView
-Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Demo\Unit1.pas
-CursorX=56
-CursorY=13
+Module=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Win32\Debug\Project1.xml
+CursorX=44
+CursorY=3
 TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=Borland.FormDesignerView
+EditViewName=G:\程序\delphi\mydoc\项目\KJYUFrame\Designer\Win32\Debug\Project1.xml
 
 [View10]
 CustomEditViewType=TEditView
 Module=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.StdCtrls.pas
-CursorX=42
-CursorY=1049
-TopLine=1036
+CursorX=1
+CursorY=3876
+TopLine=3863
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -267,40 +285,86 @@ EditViewName=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.StdCt
 
 [View11]
 CustomEditViewType=TEditView
-Module=C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Forms.pas
-CursorX=81
-CursorY=3170
-TopLine=3162
+Module=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Forms.pas
+CursorX=74
+CursorY=5216
+TopLine=5208
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Forms.pas
+EditViewName=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Forms.pas
 
 [View12]
 CustomEditViewType=TEditView
-Module=C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Platform.Win.pas
-CursorX=17
-CursorY=1945
-TopLine=1928
+Module=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas
+CursorX=26
+CursorY=2786
+TopLine=2777
 LeftCol=1
-Elisions=
-Bookmarks=
-EditViewName=C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Platform.Win.pas
+Elisions={{6016,0},{6269,11},{'TTextSettingsInfo'}}{{6018,0},{6044,11},{'Helper classes'}}{{6839,0},{6989,11},{'TPopupList'}}
+Bookmarks={1,2876,22}
+EditViewName=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas
 
 [View13]
 CustomEditViewType=TEditView
+Module=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Types.pas
+CursorX=1
+CursorY=1090
+TopLine=1075
+LeftCol=1
+Elisions={{5128,0},{5261,11},{'implementation of purgatory'}}{{7221,0},{7743,11},{' implementation of Caret'}}{{7300,0},{7432,11},{'global methods for Flasher'}}
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Types.pas
+
+[View14]
+CustomEditViewType=TEditView
+Module=c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.TypInfo.pas
+CursorX=37
+CursorY=244
+TopLine=233
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.TypInfo.pas
+
+[View15]
+CustomEditViewType=TEditView
+Module=c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.Rtti.pas
+CursorX=37
+CursorY=15
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\14.0\source\rtl\common\System.Rtti.pas
+
+[View16]
+CustomEditViewType=TEditView
 Module=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Graphics.pas
-CursorX=78
-CursorY=168
-TopLine=158
+CursorX=41
+CursorY=5209
+TopLine=5205
 LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Graphics.pas
 
+[View17]
+CustomEditViewType=TEditView
+Module=c:\program files (x86)\embarcadero\studio\14.0\SOURCE\RTL\SYS\System.Math.Vectors.pas
+CursorX=3
+CursorY=145
+TopLine=124
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\14.0\SOURCE\RTL\SYS\System.Math.Vectors.pas
+
 [Watches]
-Count=1
+Count=3
 Watch0='FGObjects[I]',256,0,18,1,0,'Watches',1
+Watch1='LPropInfo.PropType^.Kind',256,0,18,1,0,'Watches',1
+Watch2='Canvas',256,0,18,1,0,'Watches',1
 
 [WatchWindow]
 WatchColumnWidth=120
@@ -324,9 +388,13 @@ Dockable=1
 StayOnTop=0
 
 [Breakpoints]
-Count=2
-Breakpoint0='G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Classes.pas',482,'',0,0,'',1,0,0,'',1,'','','',0,''
+Count=6
+Breakpoint0='G:\程序\delphi\mydoc\项目\KJYUFrame\Source\UI\KJYU.UI.Classes.pas',501,'',0,0,'',1,0,0,'',1,'','','',0,''
 Breakpoint1='C:\Program Files (x86)\Embarcadero\Studio\14.0\source\fmx\FMX.Forms.pas',3272,'',0,0,'',1,0,0,'',1,'','','',0,''
+Breakpoint2='c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.StdCtrls.pas',3880,'',0,1,'',1,0,0,'',1,'','','',0,''
+Breakpoint3='c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.StdCtrls.pas',3876,'',0,0,'',1,0,0,'',1,'','','',0,''
+Breakpoint4='c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Forms.pas',5277,'',0,0,'',1,0,0,'',1,'','','',0,''
+Breakpoint5='c:\program files (x86)\embarcadero\studio\14.0\source\fmx\FMX.Controls.pas',2787,'',0,0,'',1,0,0,'',1,'','','',0,''
 
 [EmbarcaderoWin32Debugger_AddressBreakpoints]
 Count=0
@@ -371,12 +439,12 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=1999
-Height=8283
+Width=1881
+Height=7665
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1999
-ClientHeight=8283
+ClientWidth=1881
+ClientHeight=7665
 TBDockHeight=5893
 LRDockWidth=2350
 Dockable=1
@@ -388,13 +456,13 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=1
-Top=27
-Width=9985
+Left=0
+Top=728
+Width=2767
 Height=1346
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=9985
+ClientWidth=2767
 ClientHeight=1346
 TBDockHeight=1346
 LRDockWidth=2767
@@ -409,12 +477,12 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=1999
-Height=8626
+Width=1881
+Height=8008
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1999
-ClientHeight=8626
+ClientWidth=1881
+ClientHeight=8008
 TBDockHeight=7157
 LRDockWidth=1999
 Dockable=1
@@ -449,23 +517,23 @@ Visible=1
 Docked=1
 State=0
 Left=0
-Top=305
-Width=1896
-Height=4780
+Top=349
+Width=2020
+Height=4176
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1896
-ClientHeight=4780
+ClientWidth=2020
+ClientHeight=4176
 TBDockHeight=6868
-LRDockWidth=1896
+LRDockWidth=2020
 Dockable=1
 StayOnTop=0
-SplitPos=111
+SplitPos=117
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=Caption,Action
-ExpandedItems=LiveBindings=0,"LiveBindings Designer=0",Margins=0,Padding=0,Position=0,RotationCenter=0,Scale=0,Touch=0,TouchTargetExpansion=0,Anchors=0,Fill=0,FormFactor=0,Border=0,BorderIcons=0
+SelectedItem=Name,LiveBindings
+ExpandedItems=Border=0,BorderIcons=0,Fill=0,FormFactor=0,"LiveBindings Designer=0",Padding=0,StyleBook=0,Touch=0,LiveBindings=0,Margins=0,Position=0,RotationCenter=0,Scale=0,TouchTargetExpansion=0,Anchors=0,DefaultItemStyles=0,ActiveLineSettings=0,AutoCompletion=0,Font=0,Gutter=0,Caret=0,BitmapMargins=0,StyledSettings=0,TextSettings=0,Options=0,OptionsEx=0
 
 [DebugLogView]
 PercentageSizes=1
@@ -594,11 +662,11 @@ State=0
 Left=0
 Top=0
 Width=2335
-Height=893
+Height=852
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2335
-ClientHeight=893
+ClientHeight=852
 TBDockHeight=2321
 LRDockWidth=2826
 Dockable=1
@@ -613,11 +681,11 @@ State=0
 Left=0
 Top=0
 Width=2335
-Height=948
+Height=852
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2335
-ClientHeight=948
+ClientHeight=852
 TBDockHeight=3201
 LRDockWidth=2826
 Dockable=1
@@ -648,7 +716,7 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-129
+Left=-138
 Top=-75
 Width=1845
 Height=3146
@@ -708,11 +776,11 @@ State=0
 Left=0
 Top=0
 Width=2335
-Height=948
+Height=852
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2335
-ClientHeight=948
+ClientHeight=852
 TBDockHeight=1154
 LRDockWidth=3675
 Dockable=1
@@ -779,12 +847,12 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=1896
-Height=3503
+Width=2020
+Height=4107
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1896
-ClientHeight=3503
+ClientWidth=2020
+ClientHeight=4107
 TBDockHeight=3681
 LRDockWidth=1896
 Dockable=1
@@ -823,12 +891,12 @@ State=0
 Left=0
 Top=23
 Width=2335
-Height=1291
+Height=1195
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2335
-ClientHeight=1291
-TBDockHeight=1291
+ClientHeight=1195
+TBDockHeight=1195
 LRDockWidth=2335
 Dockable=1
 StayOnTop=0
@@ -868,14 +936,14 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=4
-Top=24
+Left=1366
+Top=52
 Width=1999
-Height=8626
+Height=8544
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1999
-ClientHeight=8626
+ClientWidth=1881
+ClientHeight=8008
 TBDockHeight=8544
 LRDockWidth=1999
 Dockable=1
@@ -894,14 +962,14 @@ Docked=1
 State=0
 Left=0
 Top=23
-Width=1896
-Height=3503
+Width=2020
+Height=4107
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1896
-ClientHeight=3503
+ClientWidth=2020
+ClientHeight=4107
 TBDockHeight=6868
-LRDockWidth=1896
+LRDockWidth=2020
 Dockable=1
 StayOnTop=0
 TabPosition=1
@@ -916,14 +984,14 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=4
-Top=24
+Left=0
+Top=0
 Width=1999
-Height=8626
+Height=8544
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1999
-ClientHeight=8626
+ClientWidth=1881
+ClientHeight=8008
 TBDockHeight=8544
 LRDockWidth=1999
 Dockable=1
@@ -933,5 +1001,5 @@ ActiveTabID=ToolForm
 TabDockClients=ToolForm,TemplateView
 
 [ActiveProject]
-ActiveProject=2
+ActiveProject=3
 

@@ -1,9 +1,9 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{E4299B3A-A1CB-4C70-B4E4-7E82BAB9631E}</ProjectGuid>
+        <ProjectGuid>{8CCB8026-952C-4475-9E4D-57C69E95468F}</ProjectGuid>
         <ProjectVersion>15.4</ProjectVersion>
         <FrameworkType>FMX</FrameworkType>
-        <MainSource>Project1.dpr</MainSource>
+        <MainSource>Designer.dpr</MainSource>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
@@ -45,10 +45,10 @@
         <Base>true</Base>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
-        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
+        <SanitizedProjectName>Designer</SanitizedProjectName>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
+        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <Icns_MainIcns>$(BDS)\bin\delphi_PROJECTICNS.icns</Icns_MainIcns>
-        <SanitizedProjectName>Project1</SanitizedProjectName>
         <DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
         <DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
         <DCC_E>false</DCC_E>
@@ -61,12 +61,12 @@
         <DCC_UsePackage>FireDACSqliteDriver;FireDACDSDriver;DBXSqliteDriver;FireDACPgDriver;fmx;IndySystem;tethering;DBXInterBaseDriver;DataSnapClient;DataSnapCommon;DataSnapServer;DataSnapProviderClient;DbxCommonDriver;dbxcds;fmxFireDAC;DBXOracleDriver;CustomIPTransport;dsnap;IndyIPServer;fmxase;IndyCore;CloudService;IndyIPCommon;FmxTeeUI;FireDACIBDriver;DataSnapFireDAC;FireDACDBXDriver;soapserver;inetdbxpress;dsnapxml;FireDACInfxDriver;FireDACDb2Driver;FireDACASADriver;bindcompfmx;FireDACODBCDriver;RESTBackendComponents;rtl;dbrtl;DbxClientDriver;FireDACCommon;bindcomp;inetdb;xmlrtl;DataSnapNativeClient;ibxpress;IndyProtocols;DBXMySQLDriver;FireDACCommonDriver;bindcompdbx;bindengine;FMXTee;soaprtl;FireDACADSDriver;FireDAC;DBXInformixDriver;FireDACMSSQLDriver;DataSnapServerMidas;DBXFirebirdDriver;inet;fmxobj;FireDACMySQLDriver;soapmidas;DBXSybaseASADriver;FireDACOracleDriver;fmxdae;RESTComponents;dbexpress;FireDACMSAccDriver;DataSnapIndy10ServerTransport;IndyIPClient;$(DCC_UsePackage)</DCC_UsePackage>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
-        <DCC_UsePackage>lmdrtscriptimp;lmdrttools;FireDACSqliteDriver;lmdrtdialog;lmdrtscript;FireDACDSDriver;lmdrttxtdb;DBXSqliteDriver;lmdrttoolsdb;lmdrtchart;FireDACPgDriver;fmx;lmdrttxt;IndySystem;TeeDB;tethering;vclib;inetdbbde;DBXInterBaseDriver;DataSnapClient;DataSnapCommon;DataSnapServer;KJYUPackage;DataSnapProviderClient;DBXSybaseASEDriver;DbxCommonDriver;lmdrtinspector;vclimg;dbxcds;DatasnapConnectorsFreePascal;MetropolisUILiveTile;vcldb;vcldsnap;lmdrtweb;lmdrtprint;lmdrtsys;lmdrteldb;lmdrtchartdb;fmxFireDAC;DBXDb2Driver;lmdrtrtfdb;DBXOracleDriver;CustomIPTransport;vclribbon;dsnap;IndyIPServer;fmxase;vcl;IndyCore;lmdrtelpro;DBXMSSQLDriver;CloudService;IndyIPCommon;FmxTeeUI;FireDACIBDriver;CodeSiteExpressPkg;lmdrtrtf;DataSnapFireDAC;FireDACDBXDriver;soapserver;lmdrtide;inetdbxpress;lmdrtdocking;lmdrtrtlx;dsnapxml;FireDACInfxDriver;FireDACDb2Driver;adortl;lmdrtshell;lmdrtcore;FireDACASADriver;lmdrtthemes;bindcompfmx;vcldbx;FireDACODBCDriver;RESTBackendComponents;rtl;dbrtl;DbxClientDriver;lmdrtstorage;FireDACCommon;bindcomp;inetdb;lmdrtbar;lmdrtgrid;Tee;DBXOdbcDriver;vclFireDAC;xmlrtl;DataSnapNativeClient;ibxpress;svnui;lmdrtdesign;IndyProtocols;DBXMySQLDriver;lmdrtsearch;FireDACCommonDriver;bindcompdbx;bindengine;vclactnband;FMXTee;soaprtl;TeeUI;bindcompvcl;TMSFMXPackPkgDXE6;OrangeUIDesign_VCL_XE6;vclie;FireDACADSDriver;vcltouch;lmdrtelcore;TMSFMXPackPkgDEDXE6;VCLRESTComponents;FireDAC;DBXInformixDriver;FireDACMSSQLDriver;Intraweb;VclSmp;DataSnapConnectors;DataSnapServerMidas;lmdrtplugin;DBXFirebirdDriver;dsnapcon;inet;fmxobj;FireDACMySQLDriver;soapmidas;vclx;lmdrtsyntax;lmdrtfx;svn;DBXSybaseASADriver;FireDACOracleDriver;fmxdae;RESTComponents;bdertl;lmdrtsearchdb;lmdrtl;dbexpress;FireDACMSAccDriver;DataSnapIndy10ServerTransport;IndyIPClient;$(DCC_UsePackage)</DCC_UsePackage>
-        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
-        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
-        <VerInfo_Locale>1033</VerInfo_Locale>
-        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <DCC_UsePackage>lmdrtscriptimp;lmdrttools;FireDACSqliteDriver;lmdrtdialog;lmdrtscript;FireDACDSDriver;lmdrttxtdb;DBXSqliteDriver;lmdrttoolsdb;lmdrtchart;FireDACPgDriver;fmx;lmdrttxt;IndySystem;TeeDB;tethering;vclib;inetdbbde;DBXInterBaseDriver;DataSnapClient;DataSnapCommon;DataSnapServer;KJYUPackage;DataSnapProviderClient;DBXSybaseASEDriver;DbxCommonDriver;lmdrtinspector;vclimg;dbxcds;DatasnapConnectorsFreePascal;MetropolisUILiveTile;vcldb;vcldsnap;lmdrtweb;lmdrtprint;lmdrtsys;lmdrteldb;lmdrtchartdb;fmxFireDAC;DBXDb2Driver;lmdrtrtfdb;DBXOracleDriver;CustomIPTransport;vclribbon;dsnap;IndyIPServer;fmxase;vcl;IndyCore;lmdrtelpro;DBXMSSQLDriver;CloudService;IndyIPCommon;FmxTeeUI;FireDACIBDriver;CodeSiteExpressPkg;lmdrtrtf;DataSnapFireDAC;FireDACDBXDriver;soapserver;lmdrtide;inetdbxpress;lmdrtdocking;lmdrtrtlx;dsnapxml;FireDACInfxDriver;FireDACDb2Driver;adortl;lmdrtshell;lmdrtcore;FireDACASADriver;lmdrtthemes;bindcompfmx;vcldbx;FireDACODBCDriver;RESTBackendComponents;rtl;dbrtl;DbxClientDriver;lmdrtstorage;FireDACCommon;bindcomp;inetdb;lmdrtbar;lmdrtgrid;Tee;DBXOdbcDriver;vclFireDAC;xmlrtl;DataSnapNativeClient;ibxpress;svnui;lmdrtdesign;IndyProtocols;DBXMySQLDriver;lmdrtsearch;FireDACCommonDriver;bindcompdbx;bindengine;vclactnband;FMXTee;soaprtl;TeeUI;bindcompvcl;TMSFMXPackPkgDXE6;OrangeUIDesign_VCL_XE6;vclie;FireDACADSDriver;vcltouch;lmdrtelcore;TMSFMXPackPkgDEDXE6;VCLRESTComponents;FireDAC;DBXInformixDriver;FireDACMSSQLDriver;Intraweb;VclSmp;DataSnapConnectors;DataSnapServerMidas;lmdrtplugin;DBXFirebirdDriver;dsnapcon;inet;fmxobj;FireDACMySQLDriver;soapmidas;vclx;lmdrtsyntax;lmdrtfx;svn;DBXSybaseASADriver;FireDACOracleDriver;fmxdae;RESTComponents;bdertl;lmdrtsearchdb;lmdrtl;dbexpress;FireDACMSAccDriver;DataSnapIndy10ServerTransport;IndyIPClient;$(DCC_UsePackage)</DCC_UsePackage>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
         <DCC_UsePackage>lmdrtscriptimp;lmdrttools;FireDACSqliteDriver;lmdrtdialog;lmdrtscript;FireDACDSDriver;lmdrttxtdb;DBXSqliteDriver;lmdrttoolsdb;lmdrtchart;FireDACPgDriver;fmx;lmdrttxt;IndySystem;TeeDB;tethering;vclib;DBXInterBaseDriver;DataSnapClient;DataSnapCommon;DataSnapServer;KJYUPackage;DataSnapProviderClient;DBXSybaseASEDriver;DbxCommonDriver;lmdrtinspector;vclimg;dbxcds;DatasnapConnectorsFreePascal;MetropolisUILiveTile;vcldb;vcldsnap;lmdrtweb;lmdrtprint;lmdrtsys;lmdrteldb;lmdrtchartdb;fmxFireDAC;DBXDb2Driver;lmdrtrtfdb;DBXOracleDriver;CustomIPTransport;vclribbon;dsnap;IndyIPServer;fmxase;vcl;IndyCore;lmdrtelpro;DBXMSSQLDriver;CloudService;IndyIPCommon;FmxTeeUI;FireDACIBDriver;lmdrtrtf;DataSnapFireDAC;FireDACDBXDriver;soapserver;lmdrtide;inetdbxpress;lmdrtdocking;lmdrtrtlx;dsnapxml;FireDACInfxDriver;FireDACDb2Driver;adortl;lmdrtshell;lmdrtcore;FireDACASADriver;lmdrtthemes;bindcompfmx;FireDACODBCDriver;RESTBackendComponents;rtl;dbrtl;DbxClientDriver;lmdrtstorage;FireDACCommon;bindcomp;inetdb;lmdrtbar;lmdrtgrid;Tee;DBXOdbcDriver;vclFireDAC;xmlrtl;DataSnapNativeClient;ibxpress;lmdrtdesign;IndyProtocols;DBXMySQLDriver;lmdrtsearch;FireDACCommonDriver;bindcompdbx;bindengine;vclactnband;FMXTee;soaprtl;TeeUI;bindcompvcl;vclie;FireDACADSDriver;vcltouch;lmdrtelcore;VCLRESTComponents;FireDAC;DBXInformixDriver;FireDACMSSQLDriver;Intraweb;VclSmp;DataSnapConnectors;DataSnapServerMidas;lmdrtplugin;DBXFirebirdDriver;dsnapcon;inet;fmxobj;FireDACMySQLDriver;soapmidas;vclx;lmdrtsyntax;lmdrtfx;DBXSybaseASADriver;FireDACOracleDriver;fmxdae;RESTComponents;lmdrtsearchdb;lmdrtl;dbexpress;FireDACMSAccDriver;DataSnapIndy10ServerTransport;IndyIPClient;$(DCC_UsePackage)</DCC_UsePackage>
@@ -80,8 +80,8 @@
         <DCC_RemoteDebug>true</DCC_RemoteDebug>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
-        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
@@ -94,13 +94,13 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\Source\MemoryLogger\OverbyteInMemoryChunk.pas"/>
-        <DCCReference Include="..\Source\MemoryLogger\OverbyteInMemoryLogger.pas"/>
-        <DCCReference Include="Unit1.pas">
-            <Form>Form1</Form>
+        <DCCReference Include="DesignMain.pas">
+            <Form>Form2</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="ProjectUnit.pas"/>
         <None Include="Win32\Debug\test1.xml"/>
+        <None Include="Win32\Debug\Project1.xml"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -119,7 +119,7 @@
         <BorlandProject>
             <Delphi.Personality>
                 <Source>
-                    <Source Name="MainSource">Project1.dpr</Source>
+                    <Source Name="MainSource">Designer.dpr</Source>
                 </Source>
                 <Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k200.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
@@ -132,7 +132,6 @@
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">False</Platform>
             </Platforms>
-            <ModelSupport>False</ModelSupport>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>
     </ProjectExtensions>
